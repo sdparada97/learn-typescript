@@ -1,8 +1,8 @@
 "use strict";
-(() => {
-    const fullName = (firstName, lastName) => {
-        return `${firstName} ${lastName}`;
+(function () {
+    var fullName = function (firstName, lastName) {
+        return "".concat(firstName, " ").concat(lastName);
     };
-    const name = fullName('Tony', 'Stark');
+    var name = fullName('Tony', 'Stark');
     console.log(name);
 })();

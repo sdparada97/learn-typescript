@@ -1,16 +1,16 @@
 "use strict";
-(() => {
+(function () {
     // Tipos
-    const batman = 'Bruce';
-    const superman = 'Clark';
-    const existe = false;
+    var batman = 'Bruce';
+    var superman = 'Clark';
+    var existe = false;
     // Tuplas
-    const parejaHeroes = [batman, superman];
-    const villano = ['Lex Lutor', 5, true];
+    var parejaHeroes = [batman, superman];
+    var villano = ['Lex Lutor', 5, true];
     // Arreglos
-    const aliados = ['Mujer Maravilla', 'Acuaman', 'San', 'Flash'];
+    var aliados = ['Mujer Maravilla', 'Acuaman', 'San', 'Flash'];
     //Enumeraciones
-    let fuerzas;
+    var fuerzas;
     (function (fuerzas) {
         fuerzas[fuerzas["Acuaman"] = 0] = "Acuaman";
         fuerzas[fuerzas["Batman"] = 1] = "Batman";
@@ -26,7 +26,7 @@
         console.log('Auxilio!!!');
     }
     // Aserciones de Tipo
-    const poder = '100';
-    const largoDelPoder = poder.length;
+    var poder = '100';
+    var largoDelPoder = poder.length;
     console.log(largoDelPoder);
 })();

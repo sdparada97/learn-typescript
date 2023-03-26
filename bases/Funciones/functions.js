@@ -1,14 +1,14 @@
 "use strict";
-(() => {
-    const hero = 'Flash';
+(function () {
+    var hero = 'Flash';
     /* Función tradicional */
     function getName() {
         return hero;
     }
     /* Función estilo flecha */
-    const activateBatisignal = () => {
+    var activateBatisignal = function () {
         return 'BatiSeñal Activada !!';
     };
     console.log(typeof activateBatisignal);
-    const heroName = getName();
+    var heroName = getName();
 })();

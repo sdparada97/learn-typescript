@@ -1,14 +1,15 @@
 "use strict";
-(() => {
+(function () {
     /* ? --> simbolo en los argumentos para que ese argumento sea opcional */
-    const fullName = (firstName, lastName, upper = false) => {
+    var fullName = function (firstName, lastName, upper) {
+        if (upper === void 0) { upper = false; }
         if (upper) {
-            return `${firstName} ${lastName || '_____'}`.toUpperCase();
+            return "".concat(firstName, " ").concat(lastName || '_____').toUpperCase();
         }
         else {
-            return `${firstName} ${lastName || '_____'}`;
+            return "".concat(firstName, " ").concat(lastName || '_____');
         }
     };
-    const name = fullName('Tony', 'Stark', true);
+    var name = fullName('Tony', 'Stark', true);
     console.log(name);
 })();

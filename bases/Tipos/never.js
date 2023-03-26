@@ -1,6 +1,6 @@
 "use strict";
-(() => {
-    const abc = (msg) => {
+(function () {
+    var abc = function (msg) {
         if (false) {
             throw new Error(msg);
         }

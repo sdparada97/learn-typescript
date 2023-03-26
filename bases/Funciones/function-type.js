@@ -1,9 +1,9 @@
 "use strict";
-(() => {
-    const addNumbers = (a, b) => a + b;
-    const greet = (name) => `Hola ${name}`;
-    const saveToWorld = () => 'EL mundo esta salvado!';
-    let myFunction;
+(function () {
+    var addNumbers = function (a, b) { return a + b; };
+    var greet = function (name) { return "Hola ".concat(name); };
+    var saveToWorld = function () { return 'EL mundo esta salvado!'; };
+    var myFunction;
     /* let myFunction: (ARGS CON SU TIPO DE DATO) => TIPO DE DATO; */
     /* myFunction = 10
     console.log(myFunction); */

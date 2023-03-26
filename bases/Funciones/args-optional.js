@@ -1,9 +1,9 @@
 "use strict";
-(() => {
+(function () {
     /* ? --> simbolo en los argumentos para que ese argumento sea opcional */
-    const fullName = (firstName, lastName) => {
-        return `${firstName} ${lastName || '_____'}`;
+    var fullName = function (firstName, lastName) {
+        return "".concat(firstName, " ").concat(lastName || '_____');
     };
-    const name = fullName('Tony');
+    var name = fullName('Tony');
     console.log(name);
 })();
