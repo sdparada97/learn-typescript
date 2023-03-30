@@ -13,7 +13,7 @@
     antibalas: true,
     pasajeros:4,
     disparar(){ // El metodo disparar es opcional
-      console.log("Disparando");
+      // console.log("Disparando");
     }
   };
 
@@ -55,7 +55,7 @@
     miembros: ["Magneto","Tormenta","Psylocke","Angel"]
   }
 
-  console.log(apocalipsis);
+  // console.log(apocalipsis);
 
   // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
   let mystique: (Charles|Apocalipsis);

@@ -20,7 +20,7 @@
       Flash = 5,
       Superman = 10,
     }
-    console.log(fuerzas);
+    // console.log(fuerzas);
   
     // Retorno de funciones
     function activar_batiseñal():string{
@@ -28,13 +28,13 @@
     }
   
     function pedir_ayuda():void{
-      console.log('Auxilio!!!');
+      // console.log('Auxilio!!!');
     }
   
     // Aserciones de Tipo
     const poder: any = '100';
     const largoDelPoder:number = (poder as String).length;
-    console.log( largoDelPoder );
+    // console.log( largoDelPoder );
   
   
   })()

@@ -28,6 +28,6 @@
 
     apocalipsisInstance.changeName('LUCIFER')
 
-    console.log(apocalipsisInstance,apocalipsisInstance1,apocalipsisInstance2);
+    // console.log(apocalipsisInstance,apocalipsisInstance1,apocalipsisInstance2);
     
 })()
