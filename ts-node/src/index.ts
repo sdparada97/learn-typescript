@@ -1,14 +1,6 @@
-// Exports General or Modular in TS
-import * as HeroClasses from "./classes/Hero";
-import powers from "./data/powers";
+import { getPokemon } from "./generics/get-pokemon"
 
-const superman = new HeroClasses.Hero('Superman',345676,40)
-console.log(superman);
-console.log(superman.power);
-
-
-
-
-
-
-
+getPokemon(4)
+    .then(pokemon => console.log(pokemon.sprites.front_default))
+    .catch(error => console.log(error))
+    .finally(() => console.log('Fin de la getPokemon'))
