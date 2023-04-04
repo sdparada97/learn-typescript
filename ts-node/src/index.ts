@@ -1,6 +1,7 @@
-import { getPokemon } from "./generics/get-pokemon"
+import { Pokemon } from './decorators/pokemon-class';
 
-getPokemon(4)
-    .then(pokemon => console.log(pokemon.sprites.front_default))
-    .catch(error => console.log(error))
-    .finally(() => console.log('Fin de la getPokemon'))
+const charmander = new Pokemon('Charmander');
+// (Pokemon.prototype as any).customName = 'Pikachu';
+charmander.publicApi = 'www.google.com';
+console.log(charmander);
+// charmander.savePokemonToDB(-40);
